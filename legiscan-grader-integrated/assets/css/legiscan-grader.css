@@ -1,0 +1,49 @@
+/* LegiScan Grader Plugin Styles */
+.legiscan-grader-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.legiscan-notice {
+    padding: 12px 15px;
+    margin: 5px 0 15px;
+    border-left: 4px solid #0073aa;
+    background: #f7f7f7;
+}
+
+.legiscan-notice.error {
+    border-left-color: #dc3232;
+    background: #fef7f7;
+}
+
+.legiscan-notice.success {
+    border-left-color: #46b450;
+    background: #f7fff7;
+}
+
+.legiscan-button {
+    background: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.legiscan-button:hover {
+    background: #005a87;
+    color: white;
+}
+
+.legiscan-button.secondary {
+    background: #666;
+}
+
+.legiscan-button.secondary:hover {
+    background: #555;
+}

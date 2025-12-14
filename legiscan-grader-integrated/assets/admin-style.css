@@ -1,0 +1,70 @@
+/* LegiScan Grader Admin Styles */
+.legiscan-dashboard-overview {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.legiscan-stat-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 150px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.legiscan-stat-box h3 {
+    margin: 0 0 10px 0;
+    color: #23282d;
+    font-size: 14px;
+}
+
+.legiscan-stat-number {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0073aa;
+}
+
+.legiscan-progress-bar {
+    width: 100%;
+    max-width: 400px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.legiscan-progress-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}
+
+.legiscan-grade-overview {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.legiscan-grade-overview ul {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #0073aa;
+}
+
+.wp-list-table .column-score {
+    width: 80px;
+}
+
+.wp-list-table .column-grade {
+    width: 60px;
+    font-weight: bold;
+}
